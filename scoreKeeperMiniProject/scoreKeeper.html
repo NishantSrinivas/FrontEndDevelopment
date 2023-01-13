@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Score Keeper</title>
+</head>
+
+<body>
+    <h1>Button Clicker Game!!</h1>
+    <section>
+        <label for="maxscore">Select Max Score</label>
+        <select id="maxscore">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <div>
+            Score is:<br>
+            player1 : <div id="p1score">0</div>
+            player2 : <div id="p2score">0</div>
+        </div>
+        <div id="winner"></div>
+        <div><button id="player1">Player1</button></div>
+        <div><button id="player2">Player2</button></div>
+        <div><button id="reset">Reset</button></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

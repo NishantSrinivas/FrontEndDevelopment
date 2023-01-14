@@ -25,7 +25,7 @@ function checkWinner() {
 maxScore.addEventListener('input', () => {
     globalMaxScore = maxScore.value;
     maxScore.disabled = true;
-    console.log('Max SCORE', globalMaxScore);
+    // console.log('Max SCORE', globalMaxScore);
 })
 
 btnPlayer1.addEventListener('click', () => {
